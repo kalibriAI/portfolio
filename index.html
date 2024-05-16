@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личная страница</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #333;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Моя Личная Страница</h1>
+</header>
+
+<nav>
+    <a href="#biography">Биография</a>
+    <a href="#achievements">Профессиональные достижения</a>
+    <a href="#portfolio">Портфолио работ</a>
+    <a href="#contact">Контактная информация</a>
+</nav>
+
+<section id="biography">
+    <h2>Биография</h2>
+    <p>Здесь размещается ваша биография. Расскажите о себе, своем образовании, опыте работы и других важных моментах вашей жизни.</p>
+</section>
+
+<section id="achievements">
+    <h2>Профессиональные достижения</h2>
+    <p>Здесь размещаются ваши профессиональные достижения. Укажите свои награды, сертификаты, важные проекты и т.д.</p>
+</section>
+
+<section id="portfolio">
+    <h2>Портфолио работ</h2>
+    <p>Здесь размещается ваше портфолио. Добавьте изображения, ссылки на проекты, описания и другие материалы, демонстрирующие вашу работу.</p>
+</section>
+
+<section id="contact">
+    <h2>Контактная информация</h2>
+    <p>Здесь размещается ваша контактная информация. Укажите свой email, телефон и другие способы связи.</p>
+    <div class="social-links">
+        <a href="https://facebook.com">Facebook</a>
+        <a href="https://twitter.com">Twitter</a>
+        <a href="https://linkedin.com">LinkedIn</a>
+        <a href="https://instagram.com">Instagram</a>
+    </div>
+    <h3>Форма обратной связи</h3>
+    <form class="contact-form">
+        <input type="text" name="name" placeholder="Ваше имя" required>
+        <input type="email" name="email" placeholder="Ваш email" required>
+        <textarea name="message" placeholder="Ваше сообщение" rows="4" required></textarea>
+        <button type="submit">Отправить</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Моя Личная Страница. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
